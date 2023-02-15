@@ -5,6 +5,7 @@ public class Insertion_sort_algorithms {
         for(int i = 1; i < arr.length; i++){
             int curr = arr[i];
             int pre = i-1;
+            //finding the correct position
             while(pre >= 0 && arr[pre] > curr){
                 arr[pre + 1] = arr[pre];
                 pre--;
